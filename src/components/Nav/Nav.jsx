@@ -12,17 +12,17 @@ function Nav() {
         <h2 className="nav-title">Home Builders Incorporated</h2>
       </Link>
       <div>
-        <>
-          <Link className="navLink" to="/user">
-            Home
-          </Link>
-
-          <Link className="navLink" to="/info">
-            Info Page
-          </Link>
-        </>
+        <Link className="navLink" to="/home">
+          Home
+        </Link>
+        <Link className="navLink" to="/gallery">
+          Gallery
+        </Link>
         <Link className="navLink" to="/about">
           About
+        </Link>
+        <Link className="navLink" to="/contact">
+          Contact
         </Link>
       </div>
     </div>
