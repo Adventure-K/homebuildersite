@@ -9,14 +9,14 @@ function Nav() {
   return (
     <div className="nav">
       <Link to="/home">
-        <h2 className="nav-title">Home Builders Incorporated</h2>
+        <h2 className="nav-title">HomeBuildersIncorporated</h2>
       </Link>
       <div>
         <Link className="navLink" to="/home">
           Home
         </Link>
-        <Link className="navLink" to="/gallery">
-          Gallery
+        <Link className="navLink" to="/properties">
+          Properties
         </Link>
         <Link className="navLink" to="/about">
           About

@@ -1,9 +1,9 @@
-function Gallery() {
+function Rondeau() {
     return (
       <div className="container">
-        <p>Gallery</p>
+        <p>Rondeau</p>
       </div>
     );
   }
   
-  export default Gallery;
+  export default Rondeau;
